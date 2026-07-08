@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "AdfurikunAppLovin",
             dependencies: [
-                .product(name: "AdfurikunSDK", package: "Adfurikun-iOS-SDK"),
+                .product(name: "AdfurikunSDK", package: "Adfurikun-SPM-Core"),
                 .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package")
             ],
             path: "Sources",
