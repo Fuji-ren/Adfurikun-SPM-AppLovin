@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Fuji-ren/Adfurikun-SPM-Core.git",
-            from: "4.4.1"
+            exact: "4.4.2"
         ),
         .package(
             url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
